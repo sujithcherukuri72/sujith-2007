@@ -1,0 +1,79 @@
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ html,body{
+    height: 100%;
+    width:100%;
+
+ }
+ #main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(181, 235, 181);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #pannel{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    border-radius: 6px;
+    background-color: azure;
+    
+
+ }
+ #topbox{
+    width: 100%;
+    padding: 0% 30%;
+    height:100px;
+    display: flex; 
+    background-color: rgb(42, 105, 42);
+    gap: 16%;
+ }
+ .elem{
+    color:aliceblue;
+    display: flex;
+    align-items:center ;
+    gap: 10px;
+    
+    
+  }
+ .box{
+    color:rgb(108, 183, 34);
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 10px ;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 30%;
+ }
+
+ .bottombox{
+    width:100%;
+    height: calc(100%-100px);
+    padding:20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .bubble{
+   height:60px;
+   width: 60px;
+   color:white;
+   background-color: rgb(108, 183, 34);
+   border-radius: 50%;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   margin: 10px;
+ }
+ .bubble:hover{
+   cursor: pointer;
+   background-color: rgb(42, 105, 42); 
+ }
